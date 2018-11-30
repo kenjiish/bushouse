@@ -32,7 +32,6 @@ body {
 	top:0px;
 	left:12.5%;
 	position:relative;
-
 }
 
 .header h1{
@@ -255,14 +254,23 @@ body {
 /******************************List******************************/
 
 .sidebar{
-	width:12.5%;
+	width:15%;
 	height:100%;
 	position:fixed;
 	top:0px;
 	left:0px;
 	z-index:100;
-	background-color:#000435;
+	background-color:rgba(0,4,53,0.4);
+	background-image:url(../images/bonfire.jpeg);
+	background-size:cover;
+	background-position:center center;
 }
+
+.sidebar_bg{
+	height:100%;
+	background-color:rgba(0,4,53,0.5);
+}
+
 
 
 .sidebar img {
@@ -272,7 +280,7 @@ body {
 	vertical-align:middle;
 }
 .sidebar_contents{
-	margin-top:100px;
+	padding-top:100px;
 
 }
 .sidebar ul li {
@@ -294,33 +302,42 @@ body {
 .list_wrapper {
 	box-sizing:border-box;
 	padding-bottom:150px;
-	padding-top:150px;
-	background-color:#ffffff
+	padding-top:0px;
+	background-color:rgba(255,255,255,0);
 }
 
 
 .list_bg{
-	width:72.5%;
+	width:70%;
 	margin-right:7.5%;
-	margin-left:20%;
+	margin-left:22.5%;
 	height:auto;
 	padding-bottom:70px;
 	padding-top:20px;
-	background-color:#ffffff;
+	background-color:rgba(255,255,255,0);
 	position:relative;
 }
 
 .list_search{
-	width:50%;
+	width:40%;
 	margin-right:15%;
 	margin-left:5%;
 	height:50px;
-	border:1px solid black;
+	background-color:rgba(240,240,240,0.9);
 	margin-bottom:40px;
 	margin-top:40px;
+	position:relative;
 }
 
+.list_search img {
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:15px;
+	top:10px;
 
+
+}
 
 .list_style {
 	width:90%;
@@ -343,12 +360,16 @@ body {
 	border-bottom:3px solid #000435;
 	color:#000000;
 	font-weight:bold;
+	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
 }
 
 .list_data{
 	padding:35px 10px;
 	background-color:#ffffff;
 	border-bottom:rgba(240,240,240,0.7);
+	border-bottom-right-radius: 5px;
+  	border-bottom-left-radius: 5px;
 }
 
 
