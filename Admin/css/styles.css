@@ -251,7 +251,7 @@ body {
 
 
 
-/******************************List******************************/
+/******************************sidebar******************************/
 
 .sidebar{
 	width:15%;
@@ -268,7 +268,7 @@ body {
 
 .sidebar_bg{
 	height:100%;
-	background-color:rgba(0,4,53,0.5);
+	background-color:rgba(0,4,53,0.6);
 }
 
 
@@ -298,10 +298,14 @@ body {
 }
 
 
+/******************************list******************************/
+
+
+
 
 .list_wrapper {
 	box-sizing:border-box;
-	padding-bottom:150px;
+	padding-bottom:50px;
 	padding-top:0px;
 	background-color:rgba(255,255,255,0);
 }
@@ -458,6 +462,47 @@ body {
 	padding:15px 50px;
 	color:#000000;
 }
+
+
+/******************************form******************************/
+
+.form_box {
+	width:60%;
+	margin-right:20%;
+	margin-left:20%;
+	margin-top:100px;
+	margin-bottom:50px;
+	padding:30px;
+	border:1px solid  black;
+}
+
+.value_name{
+	display:block;
+	text-align:left;
+	padding-bottom:10px;
+}
+
+
+.form_block {
+	margin:30px 0px;
+}
+
+.value {
+	display:block;
+
+
+}
+
+.value_short_text {
+	width:50%;
+
+}
+
+.value_long_text {
+	width:80%;
+	height:100px;
+}
+
 
 
 
