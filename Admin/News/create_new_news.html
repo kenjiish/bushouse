@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>エリア新規作成</title>
+		<title>ニュース新規作成</title>
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/styles.css">
 	</head>
@@ -12,20 +12,16 @@
 			<div class="form_bg">
 				<div class="form_box">
 					<div class="form_title">
-						<h1>エリア作成</h1>
+						<h1>ニュース作成</h1>
 					</div>
 					<form>
 						<div class="form_block">
-						 <label for="name" class="value_name">エリア名</label>
+						 <label for="title" class="value_name">タイトル</label>
 						 <input type="text" class="value value_short_text">
 						</div>
 						<div class="form_block">
-						 <label for="description" class="value_name">詳細</label>
-						 <input type="text" class="value value_long_text">
-						</div>
-						<div class="form_block">
-						 <label for="image" class="value_name">画像</label>
-						 <input type="file" class="value value_file">
+						 <label for="body" class="value_name">本文</label>
+						 <input type="ckeditor" class="value value_ckeditor">
 						</div>
 						<div class="form_block">
 						 <label for="" class="value_name">表示ステータス</label>
