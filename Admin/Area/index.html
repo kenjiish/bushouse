@@ -6,6 +6,17 @@
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/styles.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		 <script>
+		 	$(
+		 		function(){
+		 			$(".menu_icon").on("click",function(){
+		 				$(".menu").slideToggle(1000);
+		 			});
+
+		 		});
+
+		 </script>
 	</head>
 	<body>
 <!-- headerここから -->
@@ -17,7 +28,7 @@
 		<div class="menu_icon">
 			<img src="../images/menu.png">
 		</div>
-		<!-- <div class="menu">
+		<div class="menu">
 			<ul>
 				<a href="../User/index.html">
 					<li><img src="../Images/user.png">ユーザー一覧</li>
@@ -43,7 +54,7 @@
 				<a href="../Review/index.html">
 					<li><img src="../Images/review.png">口コミ</li>
 				</a>
-			</ul> -->
+			</ul>
 		</div>
 	</div>
 <!-- headerここまで -->

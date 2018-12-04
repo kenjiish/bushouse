@@ -84,6 +84,7 @@ body {
 	left:0px;
 	top:56px;
 	background-color:rgba(0,4,53,1);
+	display:none;
 
 }
 
@@ -360,9 +361,9 @@ body {
 
 
 .list_bg{
-	width:70%;
-	margin-right:7.5%;
-	margin-left:22.5%;
+	width:80%;
+	margin-right:12.5%;
+	margin-left:17.5%;
 	height:auto;
 	padding-bottom:70px;
 	padding-top:20px;
@@ -421,6 +422,7 @@ body {
 	border-bottom:rgba(240,240,240,0.7);
 	border-bottom-right-radius: 5px;
   	border-bottom-left-radius: 5px;
+  	font-size:16px;
 }
 
 
@@ -434,15 +436,20 @@ body {
   	border-bottom-left-radius: 5px;
   	background-color:#D9D9D9;
   	padding:10px 5px;
-  	font-size:12.5px;
+  	font-size:12px;
   	border-bottom:solid 3px #677695;
-}
+  }
 
 .list_btn_1:active {
 	border-bottom:none;
 	transform:translateY(4px);
 	-ms-transform: translateY(4px);
     -webkit-transform: translateY(4px);
+}
+
+
+.list_btn_2 {
+	width:100px;
 }
 
 
@@ -464,26 +471,46 @@ body {
 }
 .list_row_3{
 	width:17%;
-
 }
+
+.list_row_4{
+	width:14%;
+}
+
+
+
+
 .display_status{
 	width:30%;
+	margin:5px 0px;
+
+}
+
+.display_status_2{
+	width:14%;
 }
 
 .display_status span{
 	width:60%;
 	padding:5px 15px;
+	margin:5px 0px;
 	color:#000000;
 }
 
 .display_status_display{
-	background-color:rgba(40, 190, 47, 0.4);
+	background-color:rgba(40, 190, 47, 0.5);
 }
 
 .display_status_hide{
-	background-color:rgba(240, 54, 54, 0.4);
+	background-color:rgba(240, 54, 54, 0.5);
 
 }
+
+.status_new { 
+	background-color:rgba(186, 54, 240, 0.5);
+
+}
+
 
 .create_new_btn{
 	position:absolute;
@@ -509,6 +536,9 @@ body {
 	padding:15px 50px;
 	color:#000000;
 }
+
+
+
 
 
 /******************************form******************************/
@@ -555,12 +585,19 @@ body {
 
 
 .form_block {
-	margin:30px 0px;
+	margin:20px 0px;
+}
+
+.value_group {
+	border-left:3px solid #000435;
+	padding:0px 3px;
+	margin-top:60px;
+	margin-bottom:30px;
+	font-size:1.1em;
 }
 
 .value {
 	display:block;
-
 
 }
 
@@ -650,6 +687,7 @@ body {
 
 	}
 
+
 	.list_row{
 	width:30%;
 	margin-left:30px;
@@ -666,9 +704,6 @@ body {
 	padding:20px 60px;
 	}
 
-	.menu {
-		display:block;
-	}
 
 	.menu_icon {
 		display:flex;
@@ -678,6 +713,12 @@ body {
 		margin:auto;
 	}
 
+	/*.list_wrapper {
+	padding-bottom:50px;
+	padding-top:400px;
+
+	}
+*/
 
 
 
