@@ -11,7 +11,7 @@ body {
 
 }
 
-.
+
 
 /*
 
@@ -27,16 +27,16 @@ body {
 
 /******************************header******************************/
 
-.header{
+.header {
 	width:87.5%;
 	border:2px solid rgba(240, 240, 240);
 	position:absolute;
-	top:0px;
+	top:0%;
 	left:12.5%;
 	position:relative;
 }
 
-.header h1{
+.header h1 {
 	font-size:20px;
 	padding:25px 60px;
 	color:#000435;
@@ -127,10 +127,7 @@ body {
 
 .login{
 	box-sizing:border-box;
-	/*background-image:url(../images/sky.jpeg);
-	background-size:cover;
-	background-position:50% 25%;
-*/}
+}
 
 .login_wrapper{
 	position:relative;
@@ -439,11 +436,27 @@ body {
   	font-size:16px;
 }
 
+.list_data ul {
+	display:flex;
+}
+
+.list_data li {
+	flex-grow:1;
+}
+
+.list_title ul {
+	display:flex;
+}
+
+.list_title li {
+	flex-grow:1;
+}
+
 
 
 
 .list_btn_1{
-	width:80px;
+	width:6%;
 	border-top-left-radius: 5px;
   	border-top-right-radius: 5px;
   	border-bottom-right-radius: 5px;
@@ -452,6 +465,8 @@ body {
   	padding:10px 5px;
   	font-size:12px;
   	border-bottom:solid 3px #677695;
+  	margin-right:2%;
+
   }
 
 .list_btn_1:active {
@@ -461,30 +476,30 @@ body {
     -webkit-transform: translateY(4px);
 }
 
+.list_btn_1 a {
+	text-decoration:none;
+	color:#000000;
+}
+
 
 .list_btn_2 {
 	width:100px;
 }
 
-
-.list_btn_1 a {
-	text-decoration:none;
-	color:#000000;
-}
 .list_blank {
-	width:10%;
+	width:8%;
 
 }
 .list_row{
 	width:30%;
-	margin-left:40px;
+	margin-left:2%;
 }
 
 .list_row_2 {
 	width:25%;
 }
 .list_row_3{
-	width:17%;
+	width:14%;
 }
 
 .list_row_4{
@@ -492,11 +507,8 @@ body {
 }
 
 
-
-
 .display_status{
 	width:30%;
-	margin:5px 0px;
 
 }
 
@@ -698,8 +710,6 @@ body {
 		position:absolute;
 		left:0px;
 		top:0px;
-
-
 	}
 
 
@@ -728,15 +738,17 @@ body {
 		margin:auto;
 	}
 
-	/*.list_wrapper {
-	padding-bottom:50px;
-	padding-top:400px;
+	.form_box {
+		width:100%;
+		margin:0%;
+		height:100%;
 
 	}
-*/
+	.form_box form {
+	margin-bottom:0px;
+}
 
-
-
+}
 
 
 
