@@ -4,8 +4,27 @@
 		<meta charset="utf-8">
 		<title>ブログ一覧</title>
 		<link rel="stylesheet" href="../css/reset.css">
-		<link rel="stylesheet" href="../css/styles.css">		
+		<link rel="stylesheet" href="../css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+		 	$(
+		 		function(){
+		 			$(".menu_icon").on("click",function(){
+		 				$(".menu").slideToggle(600);
+		 			});
+		 			$(".menu ul li ").on("mouseover",function(){
+		 				$(this).css("background-color","rgba(255,255,255,0.3");
+		 			});
+		 			$(".menu ul li ").on("mouseout",function(){
+		 				$(this).css("background-color","rgba(0,4,53");
+		 			});
+
+
+		 		});
+
+		</script>	
 	</head>
+
 	<body>
 <!-- headerここから -->
 	<div class="header">
@@ -42,6 +61,9 @@
 				</a>
 				<a href="../Review/index.html">
 					<li><img src="../Images/review.png">口コミ</li>
+				</a>
+				<a href="#">
+					<li><img src="../Images/setting.png">ログアウト</li>
 				</a>
 			</ul>
 		</div>
