@@ -203,7 +203,7 @@ body {
 .login_value input[type="password"]:focus {
 	border-bottom: 2px solid rgba(0, 4, 53, 0.8);
 	outline: none;
-	
+
 	}
 
 
@@ -704,6 +704,9 @@ body {
 	height:300px;
 }
 
+.value_radio {
+	display:inline-block;
+}
 
 
 
